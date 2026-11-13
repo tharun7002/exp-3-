@@ -1,2 +1,9 @@
 git stash save "your stash message"
-git checkout target-branch git stash apply
+git branch target branch
+git checkout target-branch
+Add-Content a.txt "Work in progress"
+git stash save "your stash message"
+git checkout target-branch
+git stash apply
+
+steps for exp 3
