@@ -1,0 +1,2 @@
+git stash save "your stash message"
+git checkout target-branch git stash apply
